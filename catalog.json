@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T20:08:16Z",
+  "updatedAt": "2026-10-17T21:22:31Z",
   "projects": [
     {
       "repo": "alexeygrigorev/cloudflare-agent-git",
@@ -3265,7 +3265,47 @@
         "note": "Inspected the root LICENSE at the observed revision. It contains standard MIT terms with a copyright notice for AgentGit contributors."
       },
       "observationNote": "Public and unarchived at inspection. GitHub reports repository creation on October 17, 2026; this does not establish submission timing. README design and test claims were not independently executed. The default memory store loses state on restart; file deletions are not modeled. Documentation disagrees about Artifacts readiness."
+    },
+    {
+      "repo": "sinequanone-org/kyoei",
+      "summary": "Signed releases and declared dependencies coordinate agents across organizations; withdrawn inputs trigger scoped blocking, human decisions, and repair.",
+      "status": "self-declared-entry",
+      "statusNote": "The author's public announcement says Kyoei was submitted to Cloudflare's Build the Next GitHub challenge. Organizer receipt and acceptance remain independently unverified.",
+      "evidence": [
+        {
+          "url": "https://github.com/sinequanone-org/kyoei/blob/bd0159d327217ae83f65d7910f648c527856a076/paper/README.md",
+          "note": "The paper identifies Romain Pellerin as its author and explicitly says it accompanies the Cloudflare contest entry."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/romainpellerin_how-does-your-team-handle-shared-work-when-activity-7516804686407172096-XHG_",
+          "note": "Romain Thierry Pellerin publicly states that Kyoei was submitted to Cloudflare's Build the Next GitHub challenge. The post describes withdrawal, dependency tracking, and repair."
+        },
+        {
+          "url": "https://github.com/sinequanone-org/kyoei/blob/bd0159d327217ae83f65d7910f648c527856a076/README.md",
+          "note": "The README describes signed contributions, purpose-limited releases, concurrent agents, dependency-aware withdrawal, human sign-off, and replacement repairs. It separates scripted edits from Workers AI edits."
+        },
+        {
+          "url": "https://github.com/sinequanone-org/kyoei/blob/bd0159d327217ae83f65d7910f648c527856a076/evidence/README.md",
+          "note": "The evidence bundle excludes parts of the research prototype and some underlying experiment material. Historical Cloudflare runs lack signed envelopes and deployed-build digests."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-17T21:22:31Z",
+      "lastObservedAt": "2026-10-17T21:22:31Z",
+      "availabilityCheckedAt": "2026-10-17T21:22:31Z",
+      "defaultBranch": "main",
+      "observedSha": "bd0159d327217ae83f65d7910f648c527856a076",
+      "availability": "public",
+      "license": {
+        "spdx": "Apache-2.0",
+        "verifiedAt": "2026-10-17T21:22:31Z",
+        "checkedAt": "2026-10-17T21:22:31Z",
+        "checkedSha": "bd0159d327217ae83f65d7910f648c527856a076",
+        "status": "identified",
+        "sourceUrl": "https://github.com/sinequanone-org/kyoei/blob/bd0159d327217ae83f65d7910f648c527856a076/LICENSE",
+        "blobSha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "note": "Inspected the root LICENSE at the observed revision. It contains standard Apache License 2.0 terms. The root NOTICE attributes Slyseed, Inc. and Lemma Ventures AG."
+      },
+      "observationNote": "Public and unarchived at inspection; design and deployment claims were not independently executed. The demo uses one operator and one account with scripted person actions; independent administration remains unproven. Only declared dependencies propagate withdrawal. Withdrawal does not erase fetched copies or cancel existing licenses. Generated edits are checked for file scope and size, not compilation or correctness. Historical logs do not establish that current fixes ran on Workers."
     }
   ]
 }
-
