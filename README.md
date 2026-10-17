@@ -248,8 +248,4 @@ Metadata updated 2026-10-17T18:41:10.762Z. [Status definitions and maintenance](
 | 109 | [JoviDeCroock/gittifacts](https://github.com/JoviDeCroock/gittifacts) | Records human-approved intent and checks agent changes against that intent. | [evidence](https://jovidecroock.com/blog/gittifacts/) | [ZIP at 30c373de14](https://github.com/JoviDeCroock/gittifacts/archive/30c373de1461a41230e66e737eaeef70d456c8bc.zip) | [MIT](https://github.com/JoviDeCroock/gittifacts/blob/30c373de1461a41230e66e737eaeef70d456c8bc/LICENSE) |
 | 110 | [sleepficus/together](https://github.com/sleepficus/together) | Shares assignments, proposed changes, checks, reviews, and decision history between people and agents. | [evidence](https://github.com/sleepficus/together/blob/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091/README.md) | [ZIP at acfc9aa6fe](https://github.com/sleepficus/together/archive/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091.zip) | [MIT](https://github.com/sleepficus/together/blob/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091/LICENSE) |
 
-Observed revisions record earlier checks. Upstream availability can change. A 404 can mean deletion, privatization, or renaming.
-
-License labels describe the inspected project declaration at the recorded revision. They do not classify every dependency or bundled asset. Check the source before redistribution.
-
-This is a community catalog, independent of Cloudflare. Catalog tooling uses the MIT license. Each upstream project retains its own license.
+Catalog tooling uses the MIT license. Each upstream project retains its own license.

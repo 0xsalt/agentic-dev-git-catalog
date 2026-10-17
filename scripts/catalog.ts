@@ -107,7 +107,7 @@ export function renderReadme(c:Catalog):string {
    lines.push('');
   }
  }
- lines.push('Observed revisions record earlier checks. Upstream availability can change. A 404 can mean deletion, privatization, or renaming.','','License labels describe the inspected project declaration at the recorded revision. They do not classify every dependency or bundled asset. Check the source before redistribution.','','This is a community catalog, independent of Cloudflare. Catalog tooling uses the MIT license. Each upstream project retains its own license.','');
+ lines.push('Catalog tooling uses the MIT license. Each upstream project retains its own license.','');
  return lines.join('\n');
 }
 
