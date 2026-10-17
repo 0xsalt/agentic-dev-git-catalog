@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T22:51:08Z",
+  "updatedAt": "2026-10-17T23:11:10Z",
   "projects": [
     {
       "repo": "alexeygrigorev/cloudflare-agent-git",
@@ -3372,6 +3372,43 @@
         "blobSha": "50d6720b209756fa370bd3dfcd104e5dd6322ca4",
         "note": "Inspected the root LICENSE at the observed revision. It contains standard MIT terms with a copyright notice for Geranium Labs."
       }
+    },
+    {
+      "repo": "teslacybrtrk/canon",
+      "summary": "Canon integrates agent changes against protected behavioral facts on combined-code previews, then gates production through release evidence and rollback rehearsals.",
+      "status": "candidate",
+      "statusNote": "The README identifies a submission tag and calls Canon an entry. No explicit link to the specific Cloudflare competition was established in inspected sources; participation and organizer receipt remain unconfirmed.",
+      "evidence": [
+        {
+          "url": "https://github.com/teslacybrtrk/canon/blob/9223d8378ca125a0d58111dcd8005244f9071e10/README.md",
+          "note": "The README names a submission tag, describes the submitted judge, and calls the project an entry. It uses Cloudflare Workers and Artifacts, but does not name the competition."
+        },
+        {
+          "url": "https://github.com/teslacybrtrk/canon/blob/9223d8378ca125a0d58111dcd8005244f9071e10/docs/autonomous-run.md",
+          "note": "The author describes three Claude Code agents on a deployed judge in a controlled scenario. The report identifies the judge version and separates earlier runs."
+        },
+        {
+          "url": "https://github.com/teslacybrtrk/canon/blob/9223d8378ca125a0d58111dcd8005244f9071e10/docs/benchmark.md",
+          "note": "The benchmark explicitly simulates pipelines on local Workers. It is not a benchmark of deployed Canon; comparisons and headline outcomes remain author claims."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-17T23:11:10Z",
+      "lastObservedAt": "2026-10-17T23:11:10Z",
+      "availabilityCheckedAt": "2026-10-17T23:11:10Z",
+      "defaultBranch": "main",
+      "observedSha": "9223d8378ca125a0d58111dcd8005244f9071e10",
+      "availability": "public",
+      "license": {
+        "spdx": "MIT",
+        "verifiedAt": "2026-10-17T23:11:10Z",
+        "checkedAt": "2026-10-17T23:11:10Z",
+        "checkedSha": "9223d8378ca125a0d58111dcd8005244f9071e10",
+        "status": "identified",
+        "sourceUrl": "https://github.com/teslacybrtrk/canon/blob/9223d8378ca125a0d58111dcd8005244f9071e10/LICENSE",
+        "blobSha": "a711a3b0aa61e1d35c958aa1ad28e8ac2142af3b",
+        "note": "Inspected the root LICENSE at the observed revision; it contains standard MIT terms for the code. The README excludes the Suno-generated Canon Stampede song from MIT coverage. This label does not license that asset."
+      },
+      "observationNote": "Public and unarchived at inspection. The README identifies GitHub as an archive mirror of an Artifacts repository. Design, deployment, and performance claims were not independently executed. The browser tour is a simulation; controlled Claude Code runs and simulated benchmarks are documented separately. One deliberate behavioral break in the documented agent run went unnoticed. Production checks and rollback claims remain bounded by their recorded versions."
     }
   ]
 }

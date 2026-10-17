@@ -1,6 +1,6 @@
 # Agentic development Git catalog
 
-Total projects: 114.
+Total projects: 115.
 
 An independent directory of projects associated with Cloudflare’s October 2026 Git platform competition.
 
@@ -8,14 +8,14 @@ Self-declared submissions require an author statement identifying the project as
 
 Each category is grouped by license, then sorted by repository name. Descriptions summarize authors’ design claims. Read [catalog.json](catalog.json) for sources, corrections, and demo limitations.
 
-Metadata updated 2026-10-17T22:51:08Z. [Status definitions and maintenance](MAINTENANCE.md).
+Metadata updated 2026-10-17T23:11:10Z. [Status definitions and maintenance](MAINTENANCE.md).
 
 | Category | Projects |
 |---|---:|
 | [Self-declared submissions](#category-self-declared-entry) | 39 |
 | [Competition projects](#category-competition-project) | 48 |
 | [Preparation projects](#category-preparation) | 13 |
-| [Unconfirmed candidates](#category-candidate) | 9 |
+| [Unconfirmed candidates](#category-candidate) | 10 |
 | [Participation unresolved](#category-unresolved) | 1 |
 | [Explicit non-entries](#category-not-entered) | 4 |
 
@@ -206,7 +206,7 @@ Metadata updated 2026-10-17T22:51:08Z. [Status definitions and maintenance](MAIN
 
 <a id="category-candidate"></a>
 
-## Unconfirmed candidates (9)
+## Unconfirmed candidates (10)
 
 ### Apache-2.0 (4)
 
@@ -217,7 +217,7 @@ Metadata updated 2026-10-17T22:51:08Z. [Status definitions and maintenance](MAIN
 | 103 | [lexaelauryn-spec/semalane](https://github.com/lexaelauryn-spec/semalane) | Agent-native Git coordination with semantic conflict detection and evidence without exposing private reasoning. | [evidence](https://github.com/lexaelauryn-spec/semalane/blob/157c33d7cd9a949b6617cc0ce47bc2756267068f/docs/SUBMISSION.md) | [ZIP at 157c33d7cd](https://github.com/lexaelauryn-spec/semalane/archive/157c33d7cd9a949b6617cc0ce47bc2756267068f.zip) | [Apache-2.0](https://github.com/lexaelauryn-spec/semalane/blob/157c33d7cd9a949b6617cc0ce47bc2756267068f/LICENSE) |
 | 104 | [mikeschlottig/weft](https://github.com/mikeschlottig/weft) | Combines declared intent, leases, isolated forks, integration tests, conflict-resolution rooms, and human review. | [evidence](https://github.com/mikeschlottig/weft/blob/89984aee441f688168ee0b7f1f48c55378db24da/README.md) | [ZIP at 89984aee44](https://github.com/mikeschlottig/weft/archive/89984aee441f688168ee0b7f1f48c55378db24da.zip) | [Apache-2.0](https://github.com/mikeschlottig/weft/blob/89984aee441f688168ee0b7f1f48c55378db24da/LICENSE) |
 
-### MIT (5)
+### MIT (6)
 
 | # | Project | Description | Competition evidence | Observed source | License |
 |---:|---|---|---|---|---|
@@ -225,7 +225,8 @@ Metadata updated 2026-10-17T22:51:08Z. [Status definitions and maintenance](MAIN
 | 106 | [GeraniumLabs/git-for-agents](https://github.com/GeraniumLabs/git-for-agents) | Loom forecasts path collisions, routes conflicts to agents, tests integrated changes, weights review votes by track record, and budgets human attention. | [evidence](https://github.com/GeraniumLabs/git-for-agents/blob/a4effcab1d11148094ea45539ec7f2b30d6f436e/docs/demo-video-script.md) | [ZIP at a4effcab1d](https://github.com/GeraniumLabs/git-for-agents/archive/a4effcab1d11148094ea45539ec7f2b30d6f436e.zip) | [MIT](https://github.com/GeraniumLabs/git-for-agents/blob/a4effcab1d11148094ea45539ec7f2b30d6f436e/LICENSE) |
 | 107 | [shivamsriva31093/dibs](https://github.com/shivamsriva31093/dibs) | Declares read and write scopes before edits. Checks interface interactions and rechecks compatibility under a merge lock. | [evidence](https://github.com/shivamsriva31093/dibs/blob/2e22f1344aa363e17f19c3ec01c6a1655591da12/README.md) | [ZIP at 2e22f1344a](https://github.com/shivamsriva31093/dibs/archive/2e22f1344aa363e17f19c3ec01c6a1655591da12.zip) | [MIT](https://github.com/shivamsriva31093/dibs/blob/2e22f1344aa363e17f19c3ec01c6a1655591da12/LICENSE) |
 | 108 | [sneed-biz/pluck](https://github.com/sneed-biz/pluck) | Event-driven integration of isolated Artifacts workspaces, with Git provenance trailers and retries for competing mainline updates | [evidence](https://github.com/sneed-biz/pluck/blob/6200643a29c964438216ac60de6ba33ea972845d/README.md) | [ZIP at 6200643a29](https://github.com/sneed-biz/pluck/archive/6200643a29c964438216ac60de6ba33ea972845d.zip) | [MIT](https://github.com/sneed-biz/pluck/blob/6200643a29c964438216ac60de6ba33ea972845d/LICENSE) |
-| 109 | [zaeem-rafiq/premise](https://github.com/zaeem-rafiq/premise) | Records agent read dependencies and reports changed assumptions during work. Retains dependency provenance in Git notes. | [evidence](https://github.com/zaeem-rafiq/premise/blob/33d2c0e608de442db296bc80d04c06effd117e2b/docs/measurements/integration/ip0.md) | [ZIP at 33d2c0e608](https://github.com/zaeem-rafiq/premise/archive/33d2c0e608de442db296bc80d04c06effd117e2b.zip) | [MIT](https://github.com/zaeem-rafiq/premise/blob/33d2c0e608de442db296bc80d04c06effd117e2b/LICENSE) |
+| 109 | [teslacybrtrk/canon](https://github.com/teslacybrtrk/canon) | Canon integrates agent changes against protected behavioral facts on combined-code previews, then gates production through release evidence and rollback rehearsals. | [evidence](https://github.com/teslacybrtrk/canon/blob/9223d8378ca125a0d58111dcd8005244f9071e10/README.md) | [ZIP at 9223d8378c](https://github.com/teslacybrtrk/canon/archive/9223d8378ca125a0d58111dcd8005244f9071e10.zip) | [MIT](https://github.com/teslacybrtrk/canon/blob/9223d8378ca125a0d58111dcd8005244f9071e10/LICENSE) |
+| 110 | [zaeem-rafiq/premise](https://github.com/zaeem-rafiq/premise) | Records agent read dependencies and reports changed assumptions during work. Retains dependency provenance in Git notes. | [evidence](https://github.com/zaeem-rafiq/premise/blob/33d2c0e608de442db296bc80d04c06effd117e2b/docs/measurements/integration/ip0.md) | [ZIP at 33d2c0e608](https://github.com/zaeem-rafiq/premise/archive/33d2c0e608de442db296bc80d04c06effd117e2b.zip) | [MIT](https://github.com/zaeem-rafiq/premise/blob/33d2c0e608de442db296bc80d04c06effd117e2b/LICENSE) |
 
 
 <a id="category-unresolved"></a>
@@ -236,7 +237,7 @@ Metadata updated 2026-10-17T22:51:08Z. [Status definitions and maintenance](MAIN
 
 | # | Project | Description | Competition evidence | Observed source | License |
 |---:|---|---|---|---|---|
-| 110 | [benbalter/regatta](https://github.com/benbalter/regatta) | Races agents across multiple repositories, shares verified fixes and groups outcomes into recorded human decisions. | [evidence](https://github.com/benbalter/regatta/blob/d5f23d5a0b57d4b8f4eeec3fdf9adeb29bc283fb/README.md) | [ZIP at d5f23d5a0b](https://github.com/benbalter/regatta/archive/d5f23d5a0b57d4b8f4eeec3fdf9adeb29bc283fb.zip) | [MIT](https://github.com/benbalter/regatta/blob/d5f23d5a0b57d4b8f4eeec3fdf9adeb29bc283fb/LICENSE) |
+| 111 | [benbalter/regatta](https://github.com/benbalter/regatta) | Races agents across multiple repositories, shares verified fixes and groups outcomes into recorded human decisions. | [evidence](https://github.com/benbalter/regatta/blob/d5f23d5a0b57d4b8f4eeec3fdf9adeb29bc283fb/README.md) | [ZIP at d5f23d5a0b](https://github.com/benbalter/regatta/archive/d5f23d5a0b57d4b8f4eeec3fdf9adeb29bc283fb.zip) | [MIT](https://github.com/benbalter/regatta/blob/d5f23d5a0b57d4b8f4eeec3fdf9adeb29bc283fb/LICENSE) |
 
 
 <a id="category-not-entered"></a>
@@ -247,9 +248,9 @@ Metadata updated 2026-10-17T22:51:08Z. [Status definitions and maintenance](MAIN
 
 | # | Project | Description | Competition evidence | Observed source | License |
 |---:|---|---|---|---|---|
-| 111 | [dannwaneri/claimcheck](https://github.com/dannwaneri/claimcheck) | Git platform layer for AI agents on Cloudflare Workers + Artifacts: agents declare claims, only verified changes merge. | [evidence](https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb) | [ZIP at a0835c723a](https://github.com/dannwaneri/claimcheck/archive/a0835c723a78a9ab91b268051ba7d26607b36113.zip) | [MIT](https://github.com/dannwaneri/claimcheck/blob/a0835c723a78a9ab91b268051ba7d26607b36113/LICENSE) |
-| 112 | [gridheap/squali](https://github.com/gridheap/squali) | Records immutable changesets, intent, evidence, and dependencies. Separates publication from derived Git compatibility. | [evidence](https://github.com/gridheap/squali/blob/32905682bf99999ceb0ee087de3749a7c22ad50a/docs/submission.md) | [ZIP at 32905682bf](https://github.com/gridheap/squali/archive/32905682bf99999ceb0ee087de3749a7c22ad50a.zip) | [MIT](https://github.com/gridheap/squali/blob/32905682bf99999ceb0ee087de3749a7c22ad50a/LICENSE) |
-| 113 | [JoviDeCroock/gittifacts](https://github.com/JoviDeCroock/gittifacts) | Records human-approved intent and checks agent changes against that intent. | [evidence](https://jovidecroock.com/blog/gittifacts/) | [ZIP at 30c373de14](https://github.com/JoviDeCroock/gittifacts/archive/30c373de1461a41230e66e737eaeef70d456c8bc.zip) | [MIT](https://github.com/JoviDeCroock/gittifacts/blob/30c373de1461a41230e66e737eaeef70d456c8bc/LICENSE) |
-| 114 | [sleepficus/together](https://github.com/sleepficus/together) | Shares assignments, proposed changes, checks, reviews, and decision history between people and agents. | [evidence](https://github.com/sleepficus/together/blob/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091/README.md) | [ZIP at acfc9aa6fe](https://github.com/sleepficus/together/archive/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091.zip) | [MIT](https://github.com/sleepficus/together/blob/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091/LICENSE) |
+| 112 | [dannwaneri/claimcheck](https://github.com/dannwaneri/claimcheck) | Git platform layer for AI agents on Cloudflare Workers + Artifacts: agents declare claims, only verified changes merge. | [evidence](https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb) | [ZIP at a0835c723a](https://github.com/dannwaneri/claimcheck/archive/a0835c723a78a9ab91b268051ba7d26607b36113.zip) | [MIT](https://github.com/dannwaneri/claimcheck/blob/a0835c723a78a9ab91b268051ba7d26607b36113/LICENSE) |
+| 113 | [gridheap/squali](https://github.com/gridheap/squali) | Records immutable changesets, intent, evidence, and dependencies. Separates publication from derived Git compatibility. | [evidence](https://github.com/gridheap/squali/blob/32905682bf99999ceb0ee087de3749a7c22ad50a/docs/submission.md) | [ZIP at 32905682bf](https://github.com/gridheap/squali/archive/32905682bf99999ceb0ee087de3749a7c22ad50a.zip) | [MIT](https://github.com/gridheap/squali/blob/32905682bf99999ceb0ee087de3749a7c22ad50a/LICENSE) |
+| 114 | [JoviDeCroock/gittifacts](https://github.com/JoviDeCroock/gittifacts) | Records human-approved intent and checks agent changes against that intent. | [evidence](https://jovidecroock.com/blog/gittifacts/) | [ZIP at 30c373de14](https://github.com/JoviDeCroock/gittifacts/archive/30c373de1461a41230e66e737eaeef70d456c8bc.zip) | [MIT](https://github.com/JoviDeCroock/gittifacts/blob/30c373de1461a41230e66e737eaeef70d456c8bc/LICENSE) |
+| 115 | [sleepficus/together](https://github.com/sleepficus/together) | Shares assignments, proposed changes, checks, reviews, and decision history between people and agents. | [evidence](https://github.com/sleepficus/together/blob/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091/README.md) | [ZIP at acfc9aa6fe](https://github.com/sleepficus/together/archive/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091.zip) | [MIT](https://github.com/sleepficus/together/blob/acfc9aa6feb3ea63cca7c75b774ce0cf8a499091/LICENSE) |
 
 Catalog tooling uses the MIT license. Each upstream project retains its own license.
