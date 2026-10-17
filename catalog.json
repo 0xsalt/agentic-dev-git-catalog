@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T18:41:10.762Z",
+  "updatedAt": "2026-10-17T20:08:16Z",
   "projects": [
     {
       "repo": "alexeygrigorev/cloudflare-agent-git",
@@ -3228,6 +3228,44 @@
         "note": "The root license matches standard MIT terms. Dependencies and bundled assets retain their own licenses."
       },
       "observationNote": "README maturity claims were inspected, not independently tested. It labels admission and Decision Records RUNS, contributor standing BUILT, and signed contributor evidence and offline replay DESIGNED. Catalog maintainer owns this project."
+    },
+    {
+      "repo": "DivinelyChosen/Agentgit",
+      "summary": "Parallel Workers AI agents use isolated Artifacts forks; a coordinator merges clean changes and flags conflicting edits.",
+      "status": "competition-project",
+      "statusNote": "The README explicitly says the project was built for Cloudflare's Git contest and names the October 14, 2026 deadline. Completed submission and organizer receipt remain unverified.",
+      "evidence": [
+        {
+          "url": "https://github.com/DivinelyChosen/Agentgit/blob/5d4df53d1c62f90297ef40d0ef98d9e2ebce7d82/README.md",
+          "note": "The README says: Built for the Cloudflare Git for AI agents contest, with entries due October 14, 2026. It describes parallel agents, Artifacts forks, and conservative three-way merging."
+        },
+        {
+          "url": "https://github.com/DivinelyChosen/Agentgit/blob/5d4df53d1c62f90297ef40d0ef98d9e2ebce7d82/RECORDING_SETUP.md",
+          "note": "Recording instructions describe an entry ready for a demo and claim live Artifacts verification on October 12. Readiness and that retrospective claim do not establish completed submission or independently verified deployment."
+        },
+        {
+          "url": "https://github.com/DivinelyChosen/Agentgit/blob/5d4df53d1c62f90297ef40d0ef98d9e2ebce7d82/DEMO_SCRIPT.md",
+          "note": "The demo script calls ArtifactsStore a stub, while the README describes an implemented adapter. Preserve this documentation discrepancy; the default demo uses memory storage."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-17T20:08:16Z",
+      "lastObservedAt": "2026-10-17T20:08:16Z",
+      "availabilityCheckedAt": "2026-10-17T20:08:16Z",
+      "defaultBranch": "main",
+      "observedSha": "5d4df53d1c62f90297ef40d0ef98d9e2ebce7d82",
+      "availability": "public",
+      "license": {
+        "spdx": "MIT",
+        "verifiedAt": "2026-10-17T20:08:16Z",
+        "checkedAt": "2026-10-17T20:08:16Z",
+        "checkedSha": "5d4df53d1c62f90297ef40d0ef98d9e2ebce7d82",
+        "status": "identified",
+        "sourceUrl": "https://github.com/DivinelyChosen/Agentgit/blob/5d4df53d1c62f90297ef40d0ef98d9e2ebce7d82/LICENSE",
+        "blobSha": "4fa857dd442ebdb28c6a9fc92e606a524df0b9f4",
+        "note": "Inspected the root LICENSE at the observed revision. It contains standard MIT terms with a copyright notice for AgentGit contributors."
+      },
+      "observationNote": "Public and unarchived at inspection. GitHub reports repository creation on October 17, 2026; this does not establish submission timing. README design and test claims were not independently executed. The default memory store loses state on restart; file deletions are not modeled. Documentation disagrees about Artifacts readiness."
     }
   ]
 }
+
