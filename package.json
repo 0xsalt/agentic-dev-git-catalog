@@ -1,0 +1,14 @@
+{
+  "name": "agentic-dev-git-catalog",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "validate": "node scripts/cli.ts validate",
+    "render": "node scripts/cli.ts render",
+    "check": "node scripts/cli.ts check"
+  }
+}
