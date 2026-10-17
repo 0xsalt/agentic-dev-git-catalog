@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T21:22:31Z",
+  "updatedAt": "2026-10-17T22:51:08Z",
   "projects": [
     {
       "repo": "alexeygrigorev/cloudflare-agent-git",
@@ -3306,6 +3306,72 @@
         "note": "Inspected the root LICENSE at the observed revision. It contains standard Apache License 2.0 terms. The root NOTICE attributes Slyseed, Inc. and Lemma Ventures AG."
       },
       "observationNote": "Public and unarchived at inspection; design and deployment claims were not independently executed. The demo uses one operator and one account with scripted person actions; independent administration remains unproven. Only declared dependencies propagate withdrawal. Withdrawal does not erase fetched copies or cancel existing licenses. Generated edits are checked for file scope and size, not compilation or correctness. Historical logs do not establish that current fixes ran on Workers."
+    },
+    {
+      "repo": "jefflinwood/idea-to-operations-demo",
+      "summary": "Outcome-first collaboration uses Zebric decisions, isolated Artifacts workspaces, and Mergiraf with TypeScript checks to route semantic conflicts back to agents.",
+      "status": "preparation",
+      "statusNote": "The October 9 implementation spec explicitly targets Cloudflare's Build the Next GitHub competition. Completed submission and organizer receipt remain unverified.",
+      "observationNote": "Public and unarchived at inspection. Design and deployment claims were not independently executed. Local UI mode performs no AI build or real launch. The complete demo requires account-specific services and a manual Workers Builds connection. Generated changes receive type checks, not behavioral test coverage. The root source license is MIT; the README separately identifies the GPL-3.0 Mergiraf binary downloaded during container builds.",
+      "evidence": [
+        {
+          "url": "https://github.com/jefflinwood/idea-to-operations-demo/blob/0483ef0aa9d58ddf71008b1e02d411e9f9a48559/docs/DEMO_CODING_SPEC.md",
+          "note": "The implementation spec names Cloudflare's Build the Next GitHub competition as its target. It proposes an outcome-centered experience above the agent swarm."
+        },
+        {
+          "url": "https://github.com/jefflinwood/idea-to-operations-demo/blob/0483ef0aa9d58ddf71008b1e02d411e9f9a48559/README.md",
+          "note": "The README describes concurrent agents, semantic conflicts caught by TypeScript, human revision decisions, and verification of the deployed commit. Local replay simulates agents and checks."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-17T22:51:08Z",
+      "lastObservedAt": "2026-10-17T22:51:08Z",
+      "availabilityCheckedAt": "2026-10-17T22:51:08Z",
+      "defaultBranch": "main",
+      "observedSha": "0483ef0aa9d58ddf71008b1e02d411e9f9a48559",
+      "availability": "public",
+      "license": {
+        "spdx": "MIT",
+        "verifiedAt": "2026-10-17T22:51:08Z",
+        "checkedAt": "2026-10-17T22:51:08Z",
+        "checkedSha": "0483ef0aa9d58ddf71008b1e02d411e9f9a48559",
+        "status": "identified",
+        "sourceUrl": "https://github.com/jefflinwood/idea-to-operations-demo/blob/0483ef0aa9d58ddf71008b1e02d411e9f9a48559/LICENSE",
+        "blobSha": "8e9b2ac1c4eada95233578a217e4bba68c585bc9",
+        "note": "Inspected the root LICENSE at the observed revision. It contains standard MIT terms with Jeff Linwood's copyright notice. The README separately explains GPL-3.0 obligations for Mergiraf in distributed container images."
+      }
+    },
+    {
+      "repo": "GeraniumLabs/git-for-agents",
+      "summary": "Loom forecasts path collisions, routes conflicts to agents, tests integrated changes, weights review votes by track record, and budgets human attention.",
+      "status": "candidate",
+      "statusNote": "The October 13 demo script uses the challenge's judging weights and maps the brief to Workers and Artifacts features. The specific-challenge relationship remains inferred; no explicit entry declaration or completed submission was established.",
+      "observationNote": "Public and unarchived at inspection; treat as an unconfirmed candidate, not a self-declared submission. Design, deployment, and performance claims were not independently executed. Scripted swarm demos and a separate Claude runner are documented. Intent overlap is path-based; note recall matches paths and wording. Merges hold trees in Worker memory, and tests run one batch at a time. Optional question deadlines can apply a default answer without a person responding.",
+      "evidence": [
+        {
+          "url": "https://github.com/GeraniumLabs/git-for-agents/blob/a4effcab1d11148094ea45539ec7f2b30d6f436e/docs/demo-video-script.md",
+          "note": "The demo plan gives 50 percent for originality and quality, 25 percent for coordination, conflicts and review, and 25 percent for UX. These contextual clues suggest this challenge, but do not establish submission."
+        },
+        {
+          "url": "https://github.com/GeraniumLabs/git-for-agents/blob/a4effcab1d11148094ea45539ec7f2b30d6f436e/README.md",
+          "note": "The README describes intent forecasts, integrated tests, weighted votes, Git notes, decision memory, and a human inbox. Its deputy applies project guidance within configured limits."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-17T22:51:08Z",
+      "lastObservedAt": "2026-10-17T22:51:08Z",
+      "availabilityCheckedAt": "2026-10-17T22:51:08Z",
+      "defaultBranch": "main",
+      "observedSha": "a4effcab1d11148094ea45539ec7f2b30d6f436e",
+      "availability": "public",
+      "license": {
+        "spdx": "MIT",
+        "verifiedAt": "2026-10-17T22:51:08Z",
+        "checkedAt": "2026-10-17T22:51:08Z",
+        "checkedSha": "a4effcab1d11148094ea45539ec7f2b30d6f436e",
+        "status": "identified",
+        "sourceUrl": "https://github.com/GeraniumLabs/git-for-agents/blob/a4effcab1d11148094ea45539ec7f2b30d6f436e/LICENSE",
+        "blobSha": "50d6720b209756fa370bd3dfcd104e5dd6322ca4",
+        "note": "Inspected the root LICENSE at the observed revision. It contains standard MIT terms with a copyright notice for Geranium Labs."
+      }
     }
   ]
 }
