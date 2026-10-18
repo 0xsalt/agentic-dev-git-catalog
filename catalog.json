@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T01:17:41Z",
+  "updatedAt": "2026-10-18T02:53:05Z",
   "projects": [
     {
       "repo": "alexeygrigorev/cloudflare-agent-git",
@@ -3442,6 +3442,47 @@
         "note": "Inspected the root LICENSE: standard MIT terms for software and documentation. The README separately credits Cloudflare architecture icons under CC-BY-4.0. Bundled assets and dependencies retain their declarations."
       },
       "observationNote": "The author's page links this repository; aribn/cairnfield is its GitHub fork, not a separate project. The public demo replays saved work without model calls; fixtures represent invented teams and one invented plugin. The README reports separate live patch-agent runs; four attempts produced no patch for a planted hidden instruction, so those demo fixes were handwritten. The prototype allows eight index nodes, has no completed scale run, and carries only a team's own work to new versions. The setup script has not run against a Cloudflare account; other deployment and verification results remain author claims. Keeping keys outside agent access depends on the operator."
+    },
+    {
+      "repo": "SuperInstance/cf-native-backend",
+      "summary": "Quilt-as-Git models repositories as typed cells and routing edges. A Workers/Artifacts backend compares cell-level changes, records merge decisions, and exposes a timeline with historical state inspection.",
+      "status": "self-declared-entry",
+      "statusNote": "The contest build plan calls Quilt-as-Git an entry and targets the October 14 Cloudflare deadline. The README describes this repository as supporting that entry. Completed submission and organizer receipt remain unverified.",
+      "evidence": [
+        {
+          "url": "https://github.com/SuperInstance/cf-native-backend/blob/68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19/docs/BUILD-PLAN.md",
+          "note": "The contest build plan names Cloudflare, its October 14 deadline, and judging criteria. It explicitly calls the repository-as-runtime concept the whole entry."
+        },
+        {
+          "url": "https://github.com/SuperInstance/cf-native-backend/blob/68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19/README.md",
+          "note": "Identifies this repository as supporting the competition entry. Describes intents, a witness log, rewind anchors, and queryable verification."
+        },
+        {
+          "url": "https://github.com/SuperInstance/cf-native-backend/blob/68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19/worker/LIVE-MERGE-RECEIPT.md",
+          "note": "Reports live Artifacts diff and merge computation on planted changes. Applying the generated push manifest and sequential conflict resolution remain unverified."
+        },
+        {
+          "url": "https://github.com/SuperInstance/cf-native-backend/blob/68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19/worker/B4-RECEIPT.md",
+          "note": "Documents the read-only routing view, timeline, historical state inspection, and receipt search. Tests used a stub binding; live browser operation remains unverified."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-18T02:53:05Z",
+      "lastObservedAt": "2026-10-18T02:53:05Z",
+      "availabilityCheckedAt": "2026-10-18T02:53:05Z",
+      "defaultBranch": "main",
+      "observedSha": "68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19",
+      "availability": "public",
+      "license": {
+        "spdx": "MIT",
+        "verifiedAt": "2026-10-18T02:53:05Z",
+        "checkedAt": "2026-10-18T02:53:05Z",
+        "checkedSha": "68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19",
+        "status": "identified",
+        "sourceUrl": "https://github.com/SuperInstance/cf-native-backend/blob/68b6cd6ade0a1c44aaa507f86ff09eb0c4066e19/LICENSE",
+        "blobSha": "744aa5307ac5770f23328732d3324ee021fee0ae",
+        "note": "Inspected the root LICENSE at the recorded revision: standard MIT terms, copyright 2026 SuperInstance. No additional project-level license declaration was found in the complete tree."
+      },
+      "observationNote": "Same owner as SuperInstance/quilt-adjudication; this is a related backend repository, not evidence of a separate entrant. Eight-fork tests use scripted edits, not verified autonomous coding agents. Published notes claim live Artifacts diff and merge computation, but leave applying the push manifest and sequential conflict resolution unverified. The browser UI was checked locally with a stub binding; live browser operation and scale remain unverified. FNV-1a receipt chains are tamper evidence, not signatures; the live-test notes say the merge secret was not provisioned. The repository-as-runtime and Cloudflare Computer integration remain design claims; the video draft's partnership claim has no independent support."
     }
   ]
 }
