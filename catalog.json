@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T23:11:10Z",
+  "updatedAt": "2026-10-18T01:17:41Z",
   "projects": [
     {
       "repo": "alexeygrigorev/cloudflare-agent-git",
@@ -3409,6 +3409,39 @@
         "note": "Inspected the root LICENSE at the observed revision; it contains standard MIT terms for the code. The README excludes the Suno-generated Canon Stampede song from MIT coverage. This label does not license that asset."
       },
       "observationNote": "Public and unarchived at inspection. The README identifies GitHub as an archive mirror of an Artifacts repository. Design, deployment, and performance claims were not independently executed. The browser tour is a simulation; controlled Claude Code runs and simulated benchmarks are documented separately. One deliberate behavioral break in the documented agent run went unnoticed. Production checks and rollback claims remain bounded by their recorded versions."
+    },
+    {
+      "repo": "peoplerenaissance/cairnfield",
+      "summary": "Teams share structured AI-tool findings and patches through separate Artifacts repositories. A checked index compares patches; local lenses select trusted changes without a central merge. The CLI rebuilds and verifies each team's copy.",
+      "status": "competition-project",
+      "statusNote": "The author's project page identifies Cloudflare's October 2026 Build the next GitHub competition as the reason for building Cairnfield. No explicit completed-submission statement or organizer receipt was found.",
+      "evidence": [
+        {
+          "url": "https://aribadernatal.com/projects/Cairnfield/",
+          "note": "The author names the Cloudflare competition and says he decided to participate by building Cairnfield on Workers and Artifacts."
+        },
+        {
+          "url": "https://github.com/peoplerenaissance/cairnfield/blob/a48e77a2c05289b7f25fc0de3a60bd1ade9b3377/README.md",
+          "note": "Describes findings without free text, patches restricted to cited lines, per-team nodes, independent validation, local lenses, and file-tree verification. Records replayed demos and live-run limits."
+        }
+      ],
+      "firstDiscoveredAt": "2026-10-18T01:17:41Z",
+      "lastObservedAt": "2026-10-18T01:17:41Z",
+      "availabilityCheckedAt": "2026-10-18T01:17:41Z",
+      "defaultBranch": "main",
+      "observedSha": "a48e77a2c05289b7f25fc0de3a60bd1ade9b3377",
+      "availability": "public",
+      "license": {
+        "spdx": "MIT",
+        "verifiedAt": "2026-10-18T01:17:41Z",
+        "checkedAt": "2026-10-18T01:17:41Z",
+        "checkedSha": "a48e77a2c05289b7f25fc0de3a60bd1ade9b3377",
+        "status": "identified",
+        "sourceUrl": "https://github.com/peoplerenaissance/cairnfield/blob/a48e77a2c05289b7f25fc0de3a60bd1ade9b3377/LICENSE",
+        "blobSha": "f4046eed83a7677f221ef2a6b393e60759f9d531",
+        "note": "Inspected the root LICENSE: standard MIT terms for software and documentation. The README separately credits Cloudflare architecture icons under CC-BY-4.0. Bundled assets and dependencies retain their declarations."
+      },
+      "observationNote": "The author's page links this repository; aribn/cairnfield is its GitHub fork, not a separate project. The public demo replays saved work without model calls; fixtures represent invented teams and one invented plugin. The README reports separate live patch-agent runs; four attempts produced no patch for a planted hidden instruction, so those demo fixes were handwritten. The prototype allows eight index nodes, has no completed scale run, and carries only a team's own work to new versions. The setup script has not run against a Cloudflare account; other deployment and verification results remain author claims. Keeping keys outside agent access depends on the operator."
     }
   ]
 }
